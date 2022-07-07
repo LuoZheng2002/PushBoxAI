@@ -139,23 +139,31 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Chessboard.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="GameAI.cpp" />
+    <ClCompile Include="GameChessboard.cpp" />
+    <ClCompile Include="GameConditions.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Theorem.cpp" />
+    <ClCompile Include="GameAITheorem.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Chessboard.h" />
+    <ClInclude Include="GameAIConclusions.h" />
+    <ClInclude Include="GameAIElementPtr.h" />
+    <ClInclude Include="GameChessboard.h" />
     <ClInclude Include="GameAIEnums.h" />
-    <ClInclude Include="GameAIStructs.h" />
+    <ClInclude Include="GameAIConditions.h" />
+    <ClInclude Include="GameChessboardLayout.h" />
+    <ClInclude Include="GameChessboardValues.h" />
+    <ClInclude Include="GameConditions.h" />
+    <ClInclude Include="GameCreateInfo.h" />
+    <ClInclude Include="GameElementPtr.h" />
     <ClInclude Include="GameEnums.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="GameAI.h" />
-    <ClInclude Include="GameStructs.h" />
-    <ClInclude Include="Statement.h" />
+    <ClInclude Include="GameOperations.h" />
+    <ClInclude Include="GameStatements.h" />
     <ClInclude Include="STypes.h" />
-    <ClInclude Include="Theorem.h" />
+    <ClInclude Include="GameAITheorem.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

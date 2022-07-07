@@ -58,9 +58,21 @@ enum class AccessFlag
 	OwnerIndirectAccess, //Even if the variable is yours, you can only change it with indirect operations i.e. through system operations, and opponent can not change it.
 	Closed //This variable is not changeable and will remain constant forever
 };
-enum class ArrayFlag
+
+
+#define ARRAY_FLAG_EXISTENCE_IMMUTABLE_BIT 1 //不可插入和删除元素
+#define ARRAY_FLAG_INSERT_BIT 2 //可插入元素
+#define ARRAY_FLAG_ERASE_BIT 4 //可删除元素
+#define ARRAY_FLAG_VALUE_IMMUTABLE_BIT 8 //不可修改已有元素的值
+
+
+
+enum class OperationType
 {
-	Fixed = 0,
-	InsertBit = 1,
-	EraseBit = 2,
+	ScalarAddConstant,
+	VectorAddConstant,
+	ScalarAddParam,
+	InsertElement,
+	EraseElement,
+
 };

@@ -13,54 +13,90 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\Game">
+      <UniqueIdentifier>{5a60f583-00bd-41b9-adb6-74e1ba3fd149}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GameAI">
+      <UniqueIdentifier>{dd95f362-7e4b-4ea7-8bd7-8d427b5487bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Game">
+      <UniqueIdentifier>{8eceb6ed-21c4-41aa-a1cd-95429883a104}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GameAI">
+      <UniqueIdentifier>{6c093630-98a8-4258-9176-18bbdd58bfbd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Game.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameAITheorem.cpp">
+      <Filter>源文件\GameAI</Filter>
     </ClCompile>
     <ClCompile Include="GameAI.cpp">
+      <Filter>源文件\GameAI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameConditions.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Chessboard.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Theorem.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="GameChessboard.cpp">
+      <Filter>源文件\GameAI</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Game.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Statement.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="STypes.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="GameChessboard.h">
+      <Filter>头文件\Game</Filter>
+    </ClInclude>
     <ClInclude Include="GameEnums.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\Game</Filter>
     </ClInclude>
-    <ClInclude Include="GameAI.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="Game.h">
+      <Filter>头文件\Game</Filter>
     </ClInclude>
-    <ClInclude Include="GameStructs.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Chessboard.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Theorem.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="GameStatements.h">
+      <Filter>头文件\Game</Filter>
     </ClInclude>
     <ClInclude Include="GameAIEnums.h">
+      <Filter>头文件\GameAI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameAIConditions.h">
+      <Filter>头文件\GameAI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameAI.h">
+      <Filter>头文件\GameAI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameAITheorem.h">
+      <Filter>头文件\GameAI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOperations.h">
+      <Filter>头文件\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameChessboardLayout.h">
+      <Filter>头文件\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameChessboardValues.h">
+      <Filter>头文件\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCreateInfo.h">
+      <Filter>头文件\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameAIConclusions.h">
+      <Filter>头文件\GameAI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameElementPtr.h">
+      <Filter>头文件\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameConditions.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="GameAIStructs.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="GameAIElementPtr.h">
+      <Filter>头文件\GameAI</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

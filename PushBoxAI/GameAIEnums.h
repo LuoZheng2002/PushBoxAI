@@ -1,13 +1,21 @@
 #pragma once
-enum class ConditionFoR
+enum class FrameOfReference
 {
 	Object,
 	Tile,
 	Global
 };
-enum class ConditionExpressionType
+enum class GameAIBooleanExpressionType
 {
 	And,
 	Or,
 	Exist_B_in_A_st_C_in_B_WRT_D,
+};
+
+
+enum class GameAIElementPtrType
+{
+	Specified,
+	GameAITheoremGlobal,
+	//...
 };

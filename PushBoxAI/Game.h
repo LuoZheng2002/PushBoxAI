@@ -1,7 +1,6 @@
 #pragma once
 #include"CommonIncludes.h"
-#include"GameStructs.h"
-#include"Chessboard.h"
+#include"GameCreateInfo.h"
 class _SubElementLayout
 {
 public:

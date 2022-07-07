@@ -1,5 +1,5 @@
 #pragma once
-#include"Enums.h"
+#include"GameEnums.h"
 struct ScalarWRTConstexprInfo
 {
 	char* scalarName;
